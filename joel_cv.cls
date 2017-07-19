@@ -45,3 +45,12 @@
 }{
 	\end{itemize}
 }
+
+% #1: Title, #2: Interval, #3: subtitle
+\newenvironment{sectionContentNaive}[1]{
+	\begin{itemize}[leftmargin=1.5em]
+		\renewcommand\labelitemi{}
+		\itemsep=-0.5em
+}{
+	\end{itemize}
+}
